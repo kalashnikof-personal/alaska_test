@@ -1,10 +1,14 @@
-```
-Test cases for Alaska API
+**Test cases for Alaska API**
 
+**Python version:** 
 python3.7
 
-List of test cases to cover:
+**Usage:** 
+python3.7 -m unittest test_add_bear.py
 
+
+**List of test cases to cover:**
+```
 POST			/bear - create
 	1) for all bear types, check that bear can be created 
 		- code 201 is returned

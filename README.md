@@ -5,10 +5,13 @@ python3.7
 
 
 **Usage:**
-Install requests package:
+
+*Install requests package:*
+
 python3.7 -m pip install requests
 
-Run the tests: 
+*Run the tests:* 
+
 python3.7 -m unittest test_add_bear.py
 
 

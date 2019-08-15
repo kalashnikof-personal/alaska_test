@@ -3,7 +3,12 @@
 **Python version:** 
 python3.7
 
-**Usage:** 
+
+**Usage:**
+Install requests package:
+python3.7 -m pip install requests
+
+Run the tests: 
 python3.7 -m unittest test_add_bear.py
 
 
@@ -77,4 +82,9 @@ DELETE			/bear/:id - delete specific bear
 		- code 404 is returned
 		- response body contains error message
 		- bears are not deleted
+
+GET         /info 
+    1) check that service info is returned
+        - code 200 is returned
+        - response body contains service info
 ```
